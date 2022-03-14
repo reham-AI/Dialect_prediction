@@ -5,6 +5,7 @@ In this repo you will find:
 a-	Data fetching script 
 
 Define your path and maximum batch, in our case the maximum batch is defined by 1000 it can be changed and the code still can handle that. Also, the ids are fetched to the last one handling the last batch. The input to this script is a CSV file given (dialect_dataset.csv) and the output is saved under the name (fetched_data.csv) to be ready for the second phase of preprocessing.
+
 Note: in case of saving the CSV file and cannot clearly see the Arabic language which is a common problem in some versions follow these steps in the excel program: Data->  From Text -> select the CSV file -> File_origin to "Unicode (UTF-8) ->select the delimiter used -> Finish
 
 b-	Data preprocessing script
