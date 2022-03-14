@@ -10,11 +10,8 @@ import re
 import string
 
 # the path to the file change it according to your location
-path = "C:\\Users\\Reham\\Desktop\\AIM\\"
+path = ""the\\path\\to\\your\\folder\\""
 df = pd.read_csv(path+'fetched_data.csv') 
-
-# ckeck nan values and duplicates
-#df.isna().sum()
 
 # cleaning data removing the user name, all english characters, numbers, emojis, punctuation, spaces..etc
 
