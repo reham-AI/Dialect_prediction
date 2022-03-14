@@ -9,7 +9,7 @@ import requests
 import pandas as pd
 
 #read dialect_dataset csv file for IDs
-path = "C:\\Users\\Reham\\Desktop\\AIM\\" # the path to the file change it according to your location
+path = "the\\path\\to\\your\\folder\\" # the path to the file change it according to your location
 max_batch = 1000 # max_batch is defined by 1000 as a requirement
 
 # reading the csv file using pandas
